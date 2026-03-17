@@ -33,7 +33,7 @@ def _identifying_awakened_sleeping_cells():
     return result
 
 
-# @router.get("/visualization_of_a_target_trajectory:")
-# def _visualization_of_a_target_trajectory():
-#     result = visualization_of_a_target_trajectory()
-#     return result
+@router.get("/visualization_of_a_target_trajectory:")
+def _visualization_of_a_target_trajectory():
+    result = visualization_of_a_target_trajectory()
+    return result
